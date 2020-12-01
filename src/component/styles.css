@@ -1,0 +1,137 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to top, #006eff, #ececec);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #000;
+  transform: scale(1.2);
+  text-decoration: underline black;  
+
+}
+
+
+
+.top {
+  background-color: red;
+  margin: 30px;
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  border-radius: 100px;
+  box-shadow: 0px 2px 20px #969494;
+}
+
+
+.top-h {
+  background-color: #d30001;
+  display: flex;
+  justify-content: center;
+  color: #f7fb00;
+  font-family: "Roboto", sans-serif;
+  border-radius: 60px 0 0 60px ;
+  width: 50%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.top-i {
+  background-color: #f7fb00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+   color: #d30001;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0 60px 60px 0  ;
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+}
+
+input {
+  display: flex;
+  margin: auto;
+    color:  #d30001;
+    font-size: 19px;
+    width:250px;
+     border-radius: 30px;
+    background-color: #ffffff;
+    border: 2px solid blue;
+  padding-left: 4px;
+}
+input:focus {  outline: 0;} 
+input:hover{
+  border: 3px solid #d30001;
+ 
+}
+.title-countries p{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+
+  font-weight: bold;
+
+  
+
+}
+
+.container-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #006eff, #ececec);
+  border-radius: 50px;
+  box-shadow: 0px 2px 23px #000000;
+  width: 250px;
+  height: 300px;
+  margin: 0px;
+  
+
+}
+.card:hover {
+   transform: scale(1.1);
+      
+}
