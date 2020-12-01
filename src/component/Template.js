@@ -9,7 +9,7 @@ export default function Covid() {
   return (
     <div>
       <nav>
-        <a href="#">DEVini </a>
+        <a href="#">DEVCRIS </a>
         <ul className="menu">
           <a href="#">
             <li> Casos </li>
